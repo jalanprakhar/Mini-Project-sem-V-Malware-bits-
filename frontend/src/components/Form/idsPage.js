@@ -105,11 +105,11 @@ export default function IdsPage() {
       title:"Training Classification Report"
     },
   ];
-  useEffect(() => {
-    if(!cookies.jwtoken){
-      navigate("/");
-    }
-  }, []);
+  // useEffect(() => {
+  //   if(!cookies.jwtoken){
+  //     navigate("/");
+  //   }
+  // }, []);
 return (
 <div className="App">
 <Box sx={{ flexGrow: 1 }}>
